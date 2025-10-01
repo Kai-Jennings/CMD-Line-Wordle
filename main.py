@@ -77,4 +77,8 @@ def colour(text, c):
     return c + text + DEFAULT
 
 
-game = Game()
+if __name__ == "__main__":
+    while True:
+        game = Game()
+        input()
+        os.system(CLEAR)
